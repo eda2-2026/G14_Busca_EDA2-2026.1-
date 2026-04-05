@@ -3,9 +3,6 @@ import time
 from collections import deque
 import matplotlib.pyplot as plt
 
-# ---------------------------
-# GERADOR DE LABIRINTO
-# ---------------------------
 def generate_maze(rows, cols):
     rows = rows if rows % 2 == 1 else rows + 1
     cols = cols if cols % 2 == 1 else cols + 1
@@ -27,10 +24,6 @@ def generate_maze(rows, cols):
     carve(1, 1)
     return maze
 
-
-# ---------------------------
-# BFS
-# ---------------------------
 def bfs(maze, start, end):
     rows, cols = len(maze), len(maze[0])
 
@@ -70,10 +63,6 @@ def bfs(maze, start, end):
     path.reverse()
     return path
 
-
-# ---------------------------
-# VISUALIZAÇÃO
-# ---------------------------
 def draw_maze(maze, path, start, end):
     display = [row[:] for row in maze]
 
@@ -88,10 +77,6 @@ def draw_maze(maze, path, start, end):
     plt.title("Labirinto com BFS")
     plt.show()
 
-
-# ---------------------------
-# MAIN
-# ---------------------------
 if __name__ == "__main__":
     maze = generate_maze(21, 21)
 

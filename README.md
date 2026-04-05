@@ -41,3 +41,4 @@ pip install matplotlib
 ```bash
 python labirinto_bfs.pyb
 ```
+![Saída](image/saida.png)

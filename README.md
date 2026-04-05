@@ -1,44 +1,26 @@
-# G14_Busca_EDA2-2026.1-
+# Buscador de Filmes com Tabela Hash 
 
-# Labirinto com BFS (Busca em Largura)
-
-Este projeto implementa a geração de um labirinto aleatório e a busca de caminho utilizando o algoritmo **BFS (Breadth-First Search)** em Python. Também inclui visualização do labirinto e do caminho encontrado utilizando **matplotlib**.
+Este projeto implementa um sistema de busca de filmes utilizando uma **tabela hash construída manualmente**, sem o uso de estruturas prontas como `dict` para armazenamento.
 
 ## Funcionalidades
 
-- Geração de labirinto aleatório
-- Algoritmo de busca BFS para encontrar o menor caminho
-- Visualização gráfica do labirinto
-- Marcação do caminho encontrado
-- Medição do tempo de execução do algoritmo
+- Leitura de dados de filmes a partir de um arquivo CSV  
+- Normalização de textos (remoção de acentos e padronização)  
+- Inserção de filmes em uma tabela hash manual  
+- Busca eficiente por título  
+- Tratamento de colisões com encadeamento (listas)  
 
+### Pré-requisitos
+- Python 3 instalado
 
-## Algoritmos utilizados
-
-### Geração do labirinto
-- Algoritmo: **DFS com backtracking**
-- Característica: gera um labirinto perfeito (sem ciclos e sem áreas isoladas)
-
-### Busca de caminho
-- Algoritmo: **BFS (Breadth-First Search)**
-- Garantia: encontra o menor caminho em número de passos
-
-
-
-## Requisitos
-
-- Python 3.x
-- Biblioteca matplotlib
-
-Instalação:
+### Executar o programa
 
 ```bash
-pip install matplotlib
+python buscador_filmes.py
 ```
+### Saída
 
-## Execução
+![Texto alternativo](image/image.png)
 
-```bash
-python labirinto_bfs.pyb
-```
-![Saída](image/saida.png)
+## Alunos
+1. Amanda Gonçalves Sobrinho Abreu - 211030925

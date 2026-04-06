@@ -1,26 +1,38 @@
-# Buscador de Filmes com Tabela Hash 
+# Buscador de Filmes com Tabela Hash
 
+Número da Lista: 14<br>
+Conteúdo da Disciplina: Algoritmos de Busca<br>
+
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 21/1030925  |  Amanda Gonçalves Sobrinho Abreu |
+| 19/0112093  |  Lucas Freire Lopes |
+
+## Sobre 
 Este projeto implementa um sistema de busca de filmes utilizando uma **tabela hash construída manualmente**, sem o uso de estruturas prontas como `dict` para armazenamento.
 
-## Funcionalidades
+## Screenshots
+![Texto alternativo](image/exemplo_busca.png)
 
-- Leitura de dados de filmes a partir de um arquivo CSV  
-- Normalização de textos (remoção de acentos e padronização)  
-- Inserção de filmes em uma tabela hash manual  
-- Busca eficiente por título  
-- Tratamento de colisões com encadeamento (listas)  
+![Texto alternativo](image/exemplo_busca2.png)
 
-### Pré-requisitos
+![Texto alternativo](image/exemplo_busca3.png)
+
+## Instalação 
+Linguagem: Python<br>
+
 - Python 3 instalado
 
-### Executar o programa
+#### Executar o programa
 
 ```bash
 python buscador_filmes.py
 ```
-### Saída
 
-![Texto alternativo](image/image.png)
+## Uso 
+Apenas insira o nome do filme que deseja pesquisar na tabela, e ele irá retornar seu nome, ano de lançamento, gênero, diretor(es), e as notas de críticos e audiência publicadas no website Rotten Tomatoes. Quando terminar, basta digitar "sair" para encerrar o programa.
 
-## Alunos
-1. Amanda Gonçalves Sobrinho Abreu - 211030925
+## Outros
+
+Diferenças de Maíusculo/minusculo e acentos entre a entrada e a tabela são ignoradas, mas é necessário escrever o título inteiro do filme.

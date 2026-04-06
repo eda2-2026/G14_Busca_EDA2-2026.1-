@@ -1,51 +1,75 @@
-titulo,ano,genero
-Matrix,1999,Ação
-Titanic,1997,Romance
-Avatar,2009,Ficção
-Interestelar,2014,Ficção
-Vingadores,2012,Ação
-Gladiador,2000,Ação
-O Poderoso Chefão,1972,Drama
-Batman Begins,2005,Ação
-Coringa,2019,Drama
-Forrest Gump,1994,Drama
-Clube da Luta,1999,Drama
-Inception,2010,Ficção
-O Senhor dos Anéis: A Sociedade do Anel,2001,Fantasia
-O Senhor dos Anéis: As Duas Torres,2002,Fantasia
-O Senhor dos Anéis: O Retorno do Rei,2003,Fantasia
-Harry Potter e a Pedra Filosofal,2001,Fantasia
-Harry Potter e a Câmara Secreta,2002,Fantasia
-Harry Potter e o Prisioneiro de Azkaban,2004,Fantasia
-Star Wars: Uma Nova Esperança,1977,Ficção
-Star Wars: O Império Contra-Ataca,1980,Ficção
-Star Wars: O Retorno de Jedi,1983,Ficção
-Jurassic Park,1993,Aventura
-O Rei Leão,1994,Animação
-Frozen,2013,Animação
-Toy Story,1995,Animação
-Toy Story 3,2010,Animação
-Procurando Nemo,2003,Animação
-Up: Altas Aventuras,2009,Animação
-Shrek,2001,Animação
-Homem-Aranha,2002,Ação
-Homem-Aranha 2,2004,Ação
-Homem-Aranha: Sem Volta Para Casa,2021,Ação
-Deadpool,2016,Ação
-Logan,2017,Ação
-Pantera Negra,2018,Ação
-Duna,2021,Ficção
-Mad Max: Estrada da Fúria,2015,Ação
-Parasita,2019,Drama
-A Origem,2010,Ficção
-Django Livre,2012,Drama
-Bastardos Inglórios,2009,Guerra
-O Lobo de Wall Street,2013,Drama
-A Rede Social,2010,Drama
-Cisne Negro,2010,Drama
-O Grande Hotel Budapeste,2014,Comédia
-La La Land,2016,Musical
-Whiplash,2014,Drama
-Her,2013,Romance
-Ex Machina,2014,Ficção
-Blade Runner 2049,2017,Ficção
+titulo,ano,genero,diretor,pontoCrit,pontoAud
+Matrix,1999,Ação,Lilly & Lana Wachowski,83%,85%
+Titanic,1997,Romance,James Cameron,88%,69%
+Avatar,2009,Ficção,James Cameron,81%,82%
+Interestelar,2014,Ficção,Christopher Nolan,73%,87%
+Vingadores,2012,Ação,Joss Whedon,91%,91%
+Gladiador,2000,Ação,Ridley Scott,80%,87%
+O Poderoso Chefão,1972,Drama,Francis Ford,97%,98%
+Batman Begins,2005,Ação,Christopher Nolan,85%,94%
+Coringa,2019,Drama,Todd Phillips,68%,89%
+Forrest Gump,1994,Drama,Robert Zemeckis,75%,95%
+Clube da Luta,1999,Drama,David Fincher,80%,96%
+Inception,2010,Ficção,Christopher Nolan,87%,91%
+O Senhor dos Anéis: A Sociedade do Anel,2001,Fantasia,Peter Jackson,91%,95%
+O Senhor dos Anéis: As Duas Torres,2002,Fantasia,Peter Jackson,95%,95%
+O Senhor dos Anéis: O Retorno do Rei,2003,Fantasia,Peter Jackson,94%,86%
+Harry Potter e a Pedra Filosofal,2001,Fantasia,Chris Columbus,80%,82%
+Harry Potter e a Câmara Secreta,2002,Fantasia,Chris Columbus,82%,80%
+Harry Potter e o Prisioneiro de Azkaban,2004,Fantasia,Alfonso Cuarón,90%,86%
+Star Wars: Uma Nova Esperança,1977,Ficção,George Lucas,94%,96%
+Star Wars: O Império Contra-Ataca,1980,Ficção,Irvin Kershner,93%,97%
+Star Wars: O Retorno de Jedi,1983,Ficção,Richard Marquand,83%,94%
+Jurassic Park,1993,Aventura,Steven Spielberg,91%,91%
+O Rei Leão,1994,Animação,Roger Allers & Rob Minkoff,92%,93%
+Frozen,2013,Animação,Chris Buck & Jennifer Lee,89%,85%
+Toy Story,1995,Animação,John Lasseter,100%,92%
+Toy Story 3,2010,Animação,Lee Unkrich,98%,90%
+Procurando Nemo,2003,Animação,Andrew Stanton & Lee Unkrich,99%,86%
+Up: Altas Aventuras,2009,Animação,Pete Docter & Bob Peterson,98%,90%
+Shrek,2001,Animação,Andrew Adamson & Vicky Jenson,88%,90%
+Homem-Aranha,2002,Ação,Sam Raimi,90%,67%
+Homem-Aranha 2,2004,Ação,Sam Raimi,93%,82%
+Homem-Aranha: Sem Volta Para Casa,2021,Ação,Jon Watts,93%,97%
+Deadpool,2016,Ação,Tim Miller,85%,90%
+Logan,2017,Ação,James Mangold,93%,91%
+Pantera Negra,2018,Ação,Ryan Coogler,96%,79%
+Duna,2021,Ficção,Denis Villeneuve,83%,90%
+Mad Max: Estrada da Fúria,2015,Ação,George Miller,97%,86%
+Parasita,2019,Drama,Bong Joon Ho,99%,90%
+A Origem,2010,Ficção,Christopher Nolan,87%,91%
+Django Livre,2012,Drama,Quentin Tarantino,87%,92%
+Bastardos Inglórios,2009,Guerra,Quentin Tarantino,89%,88%
+O Lobo de Wall Street,2013,Drama,Martin Scorsese,79%,83%
+A Rede Social,2010,Drama,David Fincher,96%,87%
+Cisne Negro,2010,Drama,Darren Aronofsky,85%,84%
+O Grande Hotel Budapeste,2014,Comédia,Wes Anderson,92%,87%
+La La Land,2016,Musical,Damien Chazelle,91%,82%
+Whiplash,2014,Drama,Damien Chazelle,94%,94%
+Her,2013,Romance,Spike Jonze,95%,82%
+Ex Machina,2014,Ficção,Alex Garland,92%,86%
+Blade Runner 2049,2017,Ficção,Denis Villeneuve,88%,89%
+Zootopia,2016,Animação,Byron Howard & Rich Moore,98%,92%
+Zootopia 2,2025,Animação,Jared Bush & Byron Howard,91%,95%
+Sonic - O Filme,2020,Aventura,Jeff Fowler,64%,93%
+Super Mario Bros. O Filme,2023,Animação,Aaron Horvath & Michael Jelenic,59%,95%
+Pokémon: O Filme,1998,Animação,Kunihiko Yuyama,17%,78%
+Pokémon: O Filme 2000 - O Poder de Um,1999,Animação,Michael Haigney,19%,56%
+Pokémon 3: O Feitiço dos Unown,2000,Animação,Kunihiko Yuyama,20%,54%
+Click,2006,Comédia,Frank Coraci,34%,66%
+Cidade de Deus,2002,Drama,Fernando Meirelles,91%,97%
+Megamente,2010,Animação,Tom McGrath,73%,72%
+Meu Malvado Favorito,2010,Animação,Chris Renaud & Pierre Coffin,80%,83%
+Wicked,2024,Fantasia,Jon M. Chu,88%,95%
+Alien,1979,Terror,Ridley Scott,93%,94%
+Aliens,1986,Terror,James Cameron,94%,94%
+Alien vs. Predador,2004,Ficção,Paul W.S. Anderson,21%,39%
+Superman,2025,Ação,James Gunn,83%,90%
+Barbie,2023,Comédia,Greta Gerwig,88%,83%
+Oppenheimer,2023,Drama,Christopher Nolan,93%,91%
+John Wick: De Volta ao Jogo,2014,Ação,Chad Stahelski,86%,82%
+John Wick 2: Um Novo Dia para Matar,2017,Ação,Chad Stahelski,89%,85%
+John Wick 3 - Implacável,2019,Ação,Chad Stahelski,89%,86%
+As Branquelas,2004,Comédia,Keenan Ivory Wayans,15%,55%
+Divertida Mente,2015,Animação,Pete Docter,98%,89%
+O Enigma de Outro Mundo,1982,Terror,John Carpenter,85%,92%

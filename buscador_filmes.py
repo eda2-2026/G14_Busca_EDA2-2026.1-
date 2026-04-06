@@ -95,9 +95,12 @@ def main():
         if resultado:
             print("\n🎬 Filme encontrado!")
             print("-" * 30)
-            print(f"Título : {resultado.get('titulo', 'N/A')}")
-            print(f"Ano    : {resultado.get('ano', 'N/A')}")
-            print(f"Gênero : {resultado.get('genero', 'N/A')}")
+            print(f"Título      : {resultado.get('titulo', 'N/A')}")
+            print(f"Ano         : {resultado.get('ano', 'N/A')}")
+            print(f"Gênero      : {resultado.get('genero', 'N/A')}")
+            print(f"Diretor(es) : {resultado.get('diretor', 'N/A')}")
+            print(f"Críticos    : {resultado.get('pontoCrit', 'N/A')}")
+            print(f"Audiência   : {resultado.get('pontoAud', 'N/A')}")
             print("-" * 30)
         else:
             print("\n❌ Filme não encontrado.")

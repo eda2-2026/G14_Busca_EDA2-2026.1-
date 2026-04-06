@@ -14,7 +14,9 @@ Este projeto implementa um sistema de busca de filmes utilizando uma **tabela ha
 
 ## Screenshots
 ![Texto alternativo](image/exemplo_busca.png)
+
 ![Texto alternativo](image/exemplo_busca2.png)
+
 ![Texto alternativo](image/exemplo_busca3.png)
 
 ## Instalação 

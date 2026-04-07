@@ -36,3 +36,7 @@ Apenas insira o nome do filme que deseja pesquisar na tabela, e ele irá retorna
 ## Outros
 
 Diferenças de Maíusculo/minusculo e acentos entre a entrada e a tabela são ignoradas, mas é necessário escrever o título inteiro do filme.
+
+## Video
+
+https://youtu.be/QUeTRcAcslo

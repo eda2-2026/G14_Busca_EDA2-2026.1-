@@ -39,4 +39,4 @@ Diferenças de Maíusculo/minusculo e acentos entre a entrada e a tabela são ig
 
 ## Video
 
-https://youtu.be/QUeTRcAcslo
+[Link para o vídeo.](https://youtu.be/0cb3gV_itlk)
